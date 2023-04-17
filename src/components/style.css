@@ -1,0 +1,42 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #222224;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.container {
+  padding-top: 10%;
+}
+
+.user-list {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px;
+    background-color: #6a65bd;
+    box-shadow: 0 0 10px rgba(172, 141, 201, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .user {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #c0c0c0;
+    font-size: 18px;
+  }
+  
+  .user:last-child {
+    border-bottom: none;
+  }
+  
+  .user:hover {
+    background-color: #f5f5f5;
+  }
+  
